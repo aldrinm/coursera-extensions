@@ -1,0 +1,40 @@
+.ext-common {
+	font-size: 0.6em;
+	padding: 4px 6px;
+	background-color: white;
+}
+
+.totalSegmentTime{
+	margin: 0 0 0 10px;
+}
+
+.remainingTime {
+  margin: 0 0 0 10px; 
+  color: #ff6600;
+}
+
+.notAttempted {
+	color: #ff6600;
+}
+
+.moreAttemptsAvailable {
+	color: #ff6600;
+}
+
+.scorebar {
+  background-color: black;
+  border-radius: 1px; /* (height of inner div) / 2 + padding */
+  padding: 0px;
+  width: 100px;
+  display: inline-block;
+}
+
+.scorebar > div {
+   background-color: #ff6600;
+   height: 20px;
+   border-radius: 1px;
+}
+
+.scorebar > div.disabled {
+  background-color: #cccccc;
+}
